@@ -60,6 +60,7 @@ The app supports modern PDF resumes and job descriptions, analyzes them semantic
 🚀 Deployment Note for Streamlit Cloud
 
 ->To ensure smooth deployment on Streamlit Cloud, the app includes a packages.txt file with the following entry:
+
     o poppler-utils
 
 This ensures that Poppler, which is required by the pdf2image library to convert PDFs to images, is installed automatically in the Streamlit Cloud environment. Without it, the resume parsing feature will not function properly.
